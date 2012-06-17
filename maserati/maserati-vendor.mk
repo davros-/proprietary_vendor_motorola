@@ -25,7 +25,7 @@ PRODUCT_COPY_FILES := \
     packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
 
 # Pick up overlay for features that depend on non-open-source files
-#DEVICE_PACKAGE_OVERLAYS := vendor/moto/maserati/overlay
+#DEVICE_PACKAGE_OVERLAYS := vendor/motorola/maserati/overlay
 
-$(call inherit-product, vendor/moto/maserati/maserati-vendor-blobs.mk)
-$(call inherit-product, vendor/moto/maserati/ducati-full.mk)
+$(call inherit-product, vendor/motorola/maserati/maserati-vendor-blobs.mk)
+$(call inherit-product, vendor/motorola/maserati/ducati-full.mk)

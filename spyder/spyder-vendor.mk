@@ -27,5 +27,5 @@ PRODUCT_COPY_FILES := \
 # Pick up overlay for features that depend on non-open-source files
 #DEVICE_PACKAGE_OVERLAYS := vendor/moto/spyder/overlay
 
-$(call inherit-product, vendor/moto/spyder/spyder-vendor-blobs.mk)
-$(call inherit-product, vendor/moto/spyder/ducati-full_spyder.mk)
+$(call inherit-product, vendor/motorola/spyder/spyder-vendor-blobs.mk)
+$(call inherit-product, vendor/motorola/spyder/ducati-full_spyder.mk)

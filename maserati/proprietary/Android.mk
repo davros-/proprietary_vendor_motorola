@@ -13,7 +13,7 @@
 # limitations under the License.
 
 ifeq ($(TARGET_DEVICE),maserati)
-LOCAL_PATH:=vendor/moto/spyder/proprietary
+LOCAL_PATH:=vendor/motorola/spyder/proprietary
 
 include \$(CLEAR_VARS)
 
