@@ -260,10 +260,7 @@ vendor/motorola/spyder/proprietary/lib/hw/camera.omap4.so:/system/lib/hw/camera.
 
 # All the apks necessary for spyder
 PRODUCT_PACKAGES += \
-	AppDirectedSmsService \
-	MotoImsServer \
-	MotoLocationProxy \
-	MotoLteTelephony \
-	MotoModemUtil \
-	MotoSimUiHelperICS \
+	appdirectedsmspermission \
+	com.motorola.android.server.ims \
+	MotoSimUiHelper \
 	vzwapnpermission

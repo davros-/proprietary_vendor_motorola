@@ -12,6 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+include $(all-subdir-makefiles)
+
 # Live wallpaper packages
 PRODUCT_PACKAGES := \
     LiveWallpapers \

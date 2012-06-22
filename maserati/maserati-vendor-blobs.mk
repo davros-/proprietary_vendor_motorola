@@ -240,10 +240,7 @@ vendor/motorola/maserati/proprietary/lib/hw/camera.omap4.so:/system/lib/hw/camer
 
 # All the apks necessary for maserati
 PRODUCT_PACKAGES += \
-	AppDirectedSmsService \
-	MotoImsServer \
-	MotoLocationProxy \
-	MotoLteTelephony \
-	MotoModemUtil \
-	MotoSimUiHelperICS \
+	appdirectedsmspermission \
+	com.motorola.android.server.ims \
+	MotoSimUiHelper \
 	vzwapnpermission
