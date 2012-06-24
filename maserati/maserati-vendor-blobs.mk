@@ -94,6 +94,20 @@ vendor/motorola/maserati/proprietary/etc/permissions/com.verizon.hardware.teleph
 PRODUCT_COPY_FILES += \
 vendor/motorola/maserati/proprietary/usr/bin/gki_pd_notifier:system/usr/bin/gki_pd_notifier \
 vendor/motorola/maserati/proprietary/usr/bin/panic_daemon:system/usr/bin/panic_daemon \
+vendor/motorola/maserati/proprietary/usr/idc/evfwd.idc:system/usr/idc/evfwd.idc \
+vendor/motorola/maserati/proprietary/usr/idc/Motorola_Mobility_Motorola_HD_Dock.idc:system/usr/idc/Motorola_Mobility_Motorola_HD_Dock.idc \
+vendor/motorola/maserati/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
+vendor/motorola/maserati/proprietary/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
+vendor/motorola/maserati/proprietary/usr/keychars/evfwd.kcm:system/usr/keychars/evfwd.kcm \
+vendor/motorola/maserati/proprietary/usr/keychars/omap4-keypad.kcm:system/usr/keychars/omap4-keypad.kcm \
+vendor/motorola/maserati/proprietary/usr/keychars/qwerty.kcm:system/usr/keychars/qwerty.kcm \
+vendor/motorola/maserati/proprietary/usr/keychars/qwerty2.kcm:system/usr/keychars/qwerty2.kcm \
+vendor/motorola/maserati/proprietary/usr/keylayout/atmxt-i2c.kl:system/usr/keylayout/atmxt-i2c.kl \
+vendor/motorola/maserati/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
+vendor/motorola/maserati/proprietary/usr/keylayout/cpcap-key.kl:system/usr/keylayout/cpcap-key.kl \
+vendor/motorola/maserati/proprietary/usr/keylayout/evfwd.kl:system/usr/keylayout/evfwd.kl \
+vendor/motorola/maserati/proprietary/usr/keylayout/omap4-keypad.kl:system/usr/keylayout/omap4-keypad.kl \
+vendor/motorola/maserati/proprietary/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
 vendor/motorola/maserati/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
 vendor/motorola/maserati/proprietary/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
 vendor/motorola/maserati/proprietary/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
@@ -124,6 +138,7 @@ vendor/motorola/maserati/proprietary/lib/libcapsjava.so:/system/lib/libcapsjava.
 vendor/motorola/maserati/proprietary/lib/libdataencrypt.so:/system/lib/libdataencrypt.so \
 vendor/motorola/maserati/proprietary/lib/libdataencrypt_tpa.so:/system/lib/libdataencrypt_tpa.so \
 vendor/motorola/maserati/proprietary/lib/libdataencrypt_utils.so:/system/lib/libdataencrypt_utils.so \
+vendor/motorola/maserati/proprietary/lib/libdevicestats.so:/system/lib/libdevicestats.so \
 vendor/motorola/maserati/proprietary/lib/libdlnahttpjni.so:/system/lib/libdlnahttpjni.so \
 vendor/motorola/maserati/proprietary/lib/libdlnajni.so:/system/lib/libdlnajni.so \
 vendor/motorola/maserati/proprietary/lib/libdlnaprofileparser.so:/system/lib/libdlnaprofileparser.so \
@@ -199,6 +214,7 @@ vendor/motorola/maserati/proprietary/lib/libmoto_qmi_ril.so:/system/lib/libmoto_
 vendor/motorola/maserati/proprietary/lib/libmoto_ril.so:/system/lib/libmoto_ril.so \
 vendor/motorola/maserati/proprietary/lib/libmotdb.so:/system/lib/libmotdb.so \
 vendor/motorola/maserati/proprietary/lib/moto-ril-multimode.so:/system/lib/moto-ril-multimode.so \
+vendor/motorola/maserati/proprietary/lib/libims_client_jni.so:/system/lib/libims_client_jni.so \
 
 # include lib/hw
 PRODUCT_COPY_FILES += \
@@ -237,6 +253,11 @@ vendor/motorola/maserati/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:/sys
 PRODUCT_COPY_FILES += \
 vendor/motorola/maserati/proprietary/lib/libpostcapimgproc_intf.so:/system/lib/libpostcapimgproc_intf.so \
 vendor/motorola/maserati/proprietary/lib/hw/camera.omap4.so:/system/lib/hw/camera.omap4.so \
+
+# Load TCMD libs
+PRODUCT_COPY_FILES += \
+vendor/motorola/maserati/proprietary/lib/libaudiotcmd.so:/system/lib/libaudiotcmd.so \
+vendor/motorola/maserati/proprietary/lib/libtcmdcameraservice.so:/system/lib/libtcmdcameraservice.so \
 
 # All the apks necessary for maserati
 PRODUCT_PACKAGES += \

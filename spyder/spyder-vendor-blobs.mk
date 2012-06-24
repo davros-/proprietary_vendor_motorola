@@ -190,13 +190,12 @@ vendor/motorola/spyder/proprietary/lib/libvideoeditorlite.so:/system/lib/libvide
 vendor/motorola/spyder/proprietary/lib/libvpnclient_jni.so:/system/lib/libvpnclient_jni.so \
 vendor/motorola/spyder/proprietary/lib/libvsuite_mot_vs40_cmb.so:/system/lib/libvsuite_mot_vs40_cmb.so \
 vendor/motorola/spyder/proprietary/lib/libwbxmlparser.so:/system/lib/libwbxmlparser.so \
-vendor/motorola/spyder/proprietary/lib/libWVphoneAPI.so:/system/libWVphoneAPI.so \
+vendor/motorola/spyder/proprietary/lib/libWVphoneAPI.so:/system/lib/libWVphoneAPI.so \
 vendor/motorola/spyder/proprietary/lib/libXmp_jni.so:/system/lib/libXmp_jni.so \
 vendor/motorola/spyder/proprietary/lib/libxmpcore.so:/system/lib/libxmpcore.so \
 vendor/motorola/spyder/proprietary/lib/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
 vendor/motorola/spyder/proprietary/lib/libOMX.ITTIAM.AAC.encode.so:/system/lib/libOMX.ITTIAM.AAC.encode.so \
-
-#vendor/motorola/spyder/proprietary/lib/libportaljni.so:/system/lib/libportaljni.so \
+vendor/motorola/spyder/proprietary/lib/libportaljni.so:/system/lib/libportaljni.so \
 
 # RIL files
 PRODUCT_COPY_FILES += \
@@ -217,8 +216,8 @@ vendor/motorola/spyder/proprietary/lib/libmoto_qmi_ril.so:/system/lib/libmoto_qm
 vendor/motorola/spyder/proprietary/lib/libmoto_ril.so:/system/lib/libmoto_ril.so \
 vendor/motorola/spyder/proprietary/lib/libmotdb.so:/system/lib/libmotdb.so \
 vendor/motorola/spyder/proprietary/lib/moto-ril-multimode.so:/system/lib/moto-ril-multimode.so \
+vendor/motorola/spyder/proprietary/lib/libims_client_jni.so:/system/lib/libims_client_jni.so \
 
-#vendor/motorola/spyder/proprietary/lib/libims_client_jni.so:/system/lib/libims_client_jni.so \
 # system/lib/hw
 PRODUCT_COPY_FILES += \
 vendor/motorola/spyder/proprietary/lib/hw/gps.spyder.so:/system/lib/hw/gps.spyder.so \
@@ -257,6 +256,11 @@ vendor/motorola/spyder/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:/syste
 PRODUCT_COPY_FILES += \
 vendor/motorola/spyder/proprietary/lib/libpostcapimgproc_intf.so:/system/lib/libpostcapimgproc_intf.so \
 vendor/motorola/spyder/proprietary/lib/hw/camera.omap4.so:/system/lib/hw/camera.omap4.so \
+
+# Load TCMD libs
+PRODUCT_COPY_FILES += \
+vendor/motorola/spyder/proprietary/lib/libaudiotcmd.so:/system/lib/libaudiotcmd.so \
+vendor/motorola/spyder/proprietary/lib/libtcmdcameraservice.so:/system/lib/libtcmdcameraservice.so \
 
 # All the apks necessary for spyder
 PRODUCT_PACKAGES += \
